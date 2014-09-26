@@ -101,16 +101,16 @@
             <div><a href="camacho.html"><img src="images/camacho.jpg" /><h5>Danny<br>Camacho</h5><p class="hide-for-small">Community historian</p></a></div>
             <div><a href="campos.html"><img src="images/campos.jpg" /><h5>Olga<br>Campos</h5><p class="hide-for-small">Charity leader, former TV anchor</p></a></div>
             <div><a href="castro.html"><img src="images/castro.jpg" /><h5>Zeke<br>Castro</h5><p class="hide-for-small">Musician/educator</p></a></div>
-            <div><a href="cavasos.html"><img src="images/cavasos.jpg" /><h5>Perla<br>Cavasos</h5><p class="hide-for-small">Legislative director<br>for State Sen. Sylvia Garcia</p></a></div>
+            <div><a href="cavazos.html"><img src="images/cavazos.jpg" /><h5>Perla<br>Cavazos</h5><p class="hide-for-small">Legislative director<br>for State Sen. Sylvia Garcia</p></a></div>
             <div><a href="chavez.html"><img src="images/chavez.jpg" /><h5>Gina<br>Chavez</h5><p class="hide-for-small">Musician</p></a></div>
-            <div><a href="duran.html"><img src="images/duran.jpg" /><h5>Fidencio<br>Duran</h5><p class="hide-for-small">Artist</p></a></div>
+            <div><a href="duran.html"><img src="images/duran.jpg" /><h5>Fidencio<br>Durán</h5><p class="hide-for-small">Artist</p></a></div>
             <div><a href="flores.html"><img src="images/flores.jpg" /><h5>'Lulu'<br>Flores</h5><p class="hide-for-small">Attorney</p></a></div>
             <div><a href="garcia.html"><img src="images/garcia.jpg" /><h5>Arnold<br>Garcia</h5><p class="hide-for-small">Former American-Statesman editorial page editor</p></a></div>
             <div><a href="ggarcia.html"><img src="images/ggarcia.jpg" /><h5>Gus<br>Garcia</h5><p class="hide-for-small">Former Austin mayor and city council member</p></a></div>
-            <div><a href="jgarza.html"><img src="images/jgarza.jpg" /><h5>Jesus<br>Garza</h5><p class="hide-for-small">President/CEO Seton Healthcare Family</p></a></div>
+            <div><a href="jgarza.html"><img src="images/jgarza.jpg" /><h5>Jesús<br>Garza</h5><p class="hide-for-small">President/CEO Seton Healthcare Family</p></a></div>
             <div><a href="rgarza.html"><img src="images/rgarza.jpg" /><h5>Rich<br>Garza</h5><p class="hide-for-small">Director of Pachanga Fest</p></a></div>
-            <div><a href="gomez.html"><img src="images/gomez.jpg" /><h5>Margaret<br>Gomez</h5><p class="hide-for-small">Travis County commissioner, precinct 4</p></a></div>
-            <div><a href="llimon.html"><img src="images/llimon.jpg" /><h5>Lonnie<br>Limon</h5><p class="hide-for-small">Marketing executive</p></a></div>
+            <div><a href="gomez.html"><img src="images/gomez.jpg" /><h5>Margaret<br>Gómez</h5><p class="hide-for-small">Travis County commissioner, precinct 4</p></a></div>
+            <div><a href="llimon.html"><img src="images/llimon.jpg" /><h5>Lonnie<br>Limón</h5><p class="hide-for-small">Marketing executive</p></a></div>
             <div><a href="mlimon.html"><img src="images/mlimon.jpg" /><h5>Marisa<br>Limon</h5><p class="hide-for-small">Nonprofit and education consultant</p></a></div>
             <div><a href="lozano.html"><img src="images/lozano.jpg" /><h5>Vicente<br>Lozano</h5><p class="hide-for-small">Writer</p></a></div>
             <div><a href="moya.html"><img src="images/moya.jpg" /><h5>Richard<br>Moya</h5><p class="hide-for-small">Former Travis County Commissioner</p></a></div>
@@ -118,7 +118,7 @@
             <div><a href="peraza.html"><img src="images/peraza.jpg" /><h5>Monica<br>Peraza</h5><p class="hide-for-small">Entrepreneur and philanthropist</p></a></div>
             <div><a href="ramirez.html"><img src="images/ramirez.jpg" /><h5>Victoria<br>Ramirez</h5><p class="hide-for-small">Director of Bullock Texas State History Museum</p></a></div>
             <div><a href="rivas-rodriguez.html"><img src="images/rivas-rodriguez.jpg" /><h5>Maggie<br>Rivas-Rodriguez</h5><p class="hide-for-small">U.S. Latino &amp; Latina Oral History Project director</p></a></div>
-            <div><a href="rodriguez.html"><img src="images/rodriguez.jpg" /><h5>Letitia<br>Rodriguez</h5><p class="hide-for-small">Musician</p></a></div>
+            <div><a href="rodriguez.html"><img src="images/rodriguez.jpg" /><h5>Leticia<br>Rodriguez</h5><p class="hide-for-small">Musician</p></a></div>
             <div><a href="rodriguez-mendoza.html"><img src="images/rodriguez-mendoza.jpg" /><h5>Amalia<br>Rodriguez-Mendoza</h5><p class="hide-for-small">District clerk of Travis County</p></a></div>
             <div><a href="rosereyes.html"><img src="images/rosereyes.jpg" /><h5>Rose<br>Reyes</h5><p class="hide-for-small">Chief Operations Officer at Giant Noise</p></a></div>
 			<div><a href="rupertreyes.html"><img src="images/rupertreyes.jpg" /><h5>Rupert<br>Reyes</h5><p class="hide-for-small">Playwright, co-director Teatro Vivo</p></a></div>
@@ -128,7 +128,7 @@
             <div><a href="sepulveda.html"><img src="images/sepulveda.jpg" /><h5>Eugene<br>Sepulveda</h5><p class="hide-for-small">Social entrepreneur and philanthropist</p></a></div>
             <div><a href="sifuentes.html"><img src="images/sifuentes.jpg" /><h5>Ben<br>Sifuentes</h5><p class="hide-for-small">Retired health care professional</p></a></div>
             <div><a href="torres.html"><img src="images/torres.jpg" /><h5>Milton<br>Torres</h5><p class="hide-for-small">Publisher of Popular Hispanics magazine</p></a></div>
-            <div><a href="tzinzun.html"><img src="images/tzinzun.jpg" /><h5>Cristina<br>Tzinzun</h5><p class="hide-for-small">Workers Defense Project director</p></a></div>
+            <div><a href="tzintzun.html"><img src="images/tzintzun.jpg" /><h5>Cristina<br>Tzintzún</h5><p class="hide-for-small">Workers Defense Project director</p></a></div>
             <div><a href="zambrano.html"><img src="images/zambrano.jpg" /><h5>Armando<br>Zambrano</h5><p class="hide-for-small">Fundraiser for Children's Medical Center Foundation of Central Texas</p></a></div>
             <div><a href="zamora.html"><img src="images/zamora.jpg" /><h5>Emilio<br>Zamora</h5><p class="hide-for-small">Historian</p></a></div>
 		</div>
@@ -245,8 +245,8 @@ $('#answer-items').find('a').on('click', function(e){
 		case 'sifuentes.html' :
 			$desc.load('answers/sifuentes.html');
 			break;
-		case 'tzinzun.html' :
-			$desc.load('answers/tzinzun.html');
+		case 'tzintzun.html' :
+			$desc.load('answers/tzintzun.html');
 			break;
 		case 'camacho.html' :
 			$desc.load('answers/camacho.html');
@@ -296,8 +296,8 @@ $('#answer-items').find('a').on('click', function(e){
 		case 'campos.html' :
 			$desc.load('answers/campos.html');
 			break;
-		case 'cavasos.html' :
-			$desc.load('answers/cavasos.html');
+		case 'cavazos.html' :
+			$desc.load('answers/cavazos.html');
 			break;
 		case 'rgarza.html' :
 			$desc.load('answers/rgarza.html');
