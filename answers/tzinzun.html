@@ -1,0 +1,42 @@
+<h3>Cristina Tzintzun</h3>
+<h5>Director of the Workers Defense Project</h5>
+<div class="show-for-small-only">
+	<img src="images/tzinzun.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>I grew up outside of Columbus, Ohio, where I was one of just a few Latinas among thousands of white families. My mother is Mexican, and throughout my childhood, I would travel back and forth between Mexico and the United States, seeing first-hand the cultural differences between my white community and Mexican heritage. She always taught me that my greatest gift was my ability to understand and travel between these two disparate worlds. When I arrived in Austin for college, I fell in love with the way that these two worlds came together here. It wasn't just that we eat a lot of breakfast tacos or that we celebrate our culture of mural art or even that we host events like the Cine Las Americas Film Festival. No, I fell in love with the way that members of the community supported one another and saw everybody as an Austinite, regardless of immigration status. The city certainly wasn't perfect, but it was ours.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		 <p>But despite what I love about Austin, I know that our Latino communities are facing changing and challenging conditions. On the one hand, I have seen Latino immigration increase over the past decade, and in some ways, the city is doing a good job of integrating these new members into its communities. In other ways, I see this city changing for the worse: Rising rents are driving Latino families out of Austin. Companies are making more and more money but passing less and less of it onto their employees, particularly for low-wage Latino workers. I see Austin shifting from the beautiful, blended community that I fell in love with to two distinct cities, one defined by technology and opulence and the other by financial pressure and limited opportunity. And largely, this split is happening down racial lines: According to the U.S. Census Bureau, Latino families in Austin are more than twice as likely to live below the poverty line than white families. I am afraid of losing the Latino culture that is so embedded in the fabric of this city because of rising income inequality. There is so much more that we could be doing as a city to address the needs of Latino families and give them the resources that they need to celebrate their own culture within this wonderful city.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>I don't like to guess about what's going to happen in the future, because it could obviously change in any number of ways. I think it's exciting that we are having so many new Latino immigrants move here, but I think the extent to which they will affect our culture will depend entirely on how well we support them. If we continue down this path of income inequality and marginalization of people of color, then I have a hard time believing that Latino families will have the resources they need to contribute to our culture in a meaningful way. If we don't elect a representative governing body in our upcoming City Council races, I doubt that our politicians will pass policies that meet the needs of our growing Latino community. That's exactly why I do the work that I do: I want to contribute to the well-being of our city's Latino communities both now and into the future.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

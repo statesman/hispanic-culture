@@ -1,0 +1,43 @@
+<h3>Mike Avila</h3>
+<h5>Webmaster for Texas State Library and Archives Commission</h5>
+<div class="show-for-small-only">
+	<img src="images/avila.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>Well, I suppose the first thing that comes to mind is food and music. It would be good to have other categories to list for impact, but it is no secret to anyone that Austin had different sections of town where folks with different historical and cultural backgrounds stayed together. Those boundaries changed through Austin's history for various reasons, but the end result was always the same for the different areas of town. When I was much younger we lived outside of Austin, but when we came into town it mostly was just in the East Side to eat at El Azteca or Nuevo Leon or to go to the grocery stores. I mean, we would occasionally go to Barton Springs or Zilker Park, but as far as visiting folks or going to an event, it was all in the East Side of town. And of course, these days tacos and Mexican food are ubiquitous in Austin, as are such restaurants as Polvos, Matt's El Rancho and the famous taco place on Congress, Las Manitas, which has closed.</p> 
+		<p>As far as music goes, I was always amazed at the number of bands and musicians playing conjunto and Tejano music at Fiesta Gardens whenever we would go to Diez y Seis celebrations there, which we did every year. When I got older and moved out and into Austin and started going to Liberty Lunch and other places, I always wondered why a group of people on the East Side were listening to a type of music and other people were listening to other types of music. Joe King Carrasco was always a favorite in the past because he unabashedly incorporated conjunto elements into his new wave sounds. Also, El Flaco and Beto y Los Fairlanes were famous outside of East Austin, so I found that interesting.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>I think it is the same here as the rest of Texas and maybe the country in that Hispanics have always contributed to the building of this city and opened up businesses and worked to support their families but it ended up being realized in certain areas. They were never ostentatious about it or were never really put into any kind of spotlight, so whenever a larger narrative about Hispanics in Austin would come up, it was usually framed as a group having to be able to be incorporated or recognized into the larger power and administrative structure of the city, whether it was to get into leadership or high-level business areas. The protests against the speedboat drag races I remember being a big deal in that many in East Austin felt that their neighborhood had to be respected a little more, so maybe that impacted and contributed to the liberal and Democratic tradition of Austin and Austin neighborhoods. I also remember Gus Garcia being elected as a big deal in the Austin Hispanic community as well, so it definitely had an impact that maybe a majority of Austinites may not realize.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>I think now that second and third generations of younger Mexican-Americans are increasing that they should cultivate a mindset that the future of Austin also includes them. There is always a certain comfort in keeping things the way you are used to and staying in the past, but the key is to keep what is good about our culture and our past but know that you are also a vital part of Austin’s future, which means to become more connected and participatory to the city’s economy and politics. It can be difficult to have to acclimate to another group, especially if you might not have the same educational or economic background, but keeping a purpose in your mind that you belong and are as important as anyone else will get you through. A good example about acknowledging these younger Hispanics is the Robert Rodriguez-founded El Rey network, which is a network geared for this audience and shows that there is an audience of young Hispanics that deserves some attention and incorporation into the larger fabric of Austin and the country.</p>
+	</div>
+
+<a href="#top" class="button">Back to top</a>
+
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

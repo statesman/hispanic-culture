@@ -1,0 +1,42 @@
+<h3>Erica Saenz</h3>
+<h5>Community engagement specialist at the University of Texas</h5>
+<div class="show-for-small-only">
+	<img src="images/saenz.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>Language. Español. Be it our street names, food or music, Spanish scents and sounds fill the Austin air.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>Bilingualism. People are either trying to learn Spanish or want to improve their Spanish language skills. It can be a complicated predicament, especially with racial tensions high and immigrant rights a hot topic of national discourse. Unfortunately, pressure to assimilate into the "American" culture often conflicts with the desire to embrace diversity and cultural competency, thereby moving bilingualism even further into the horizon for some.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>Inclusiveness. Austin's future is multicultural, with the Hispanic culture being the most prominent. It's a numbers game, really, and the demographic forecast is quite clear. Austin has a long and complicated history with minority and underserved communities, and the impact of the Hispanic culture, along with all other cultures, will continue to push Austin to be more inclusive.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

@@ -1,0 +1,42 @@
+<h3>Olga Campos</h3>
+<h5>Charity leader, former TV anchor</h5>
+<div class="show-for-small-only">
+	<img src="images/campos.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>Austin might never have evolved from that sleepy college town dominated by the state government and the University of Texas if it weren't for the booming Hispanic community and our cultural influence. We bring a certain sizzle to everything around us: the conversation, the music, the architecture, the food and drinks and to any life event worth celebrating! I can't even imagine a wedding, birthday, anniversary or get-together with friends and family, regardless of their ethnicity, that doesn't include some portion of Mexican food, beer, tequila, salsa music, a piñata or other colorful decorations. Hispanics add dimension, distinction and diversity to the fabric of this city, and we do so in a warm and welcoming way. From the condiments in any restaurant to the leaders of this community – Hispanics have a huge impact on creating an eclectic Austin where we all want to live and thrive.</p>
+	</div>
+<div id="tab-2" class="tab-content">
+		<p>Despite the varying levels of education, wealth and religious background among our fellow citizens, many incorrectly assume that Hispanics want to "take over" and become the  dominant majority. There seems to be an increasing fear that Hispanics are out to insert our culture – especially our language – into all public arenas. It's the least understood part of the growing Hispanic cultural impact. It has become more evident in the very public racially charged attacks and negative comments triggered by recent politicized issues.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>There is no escaping the future influence and impact of the Hispanic culture – not only on Austin, but globally! Business and political leaders already recognize the potential voting strength and consumer buying power. Our cultural and educational impact and just our sheer population numbers will, no doubt, influence everything from pop culture and social media choices to the individuals who will lead Austin into the future. I'm excited to do my small part to positively impact our promising future!</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

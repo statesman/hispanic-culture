@@ -1,0 +1,43 @@
+<h3>Fidencio Duran</h3>
+<h5>Artist</h5>
+<div class="show-for-small-only">
+	<img src="images/duran.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>As a painter, arts educator and muralist in Austin, I see the greatest impact by Hispanic culture being the contribution of maintaining a connection between the visual arts and the social causes and aspirations of the community. It continued the narrative and representational approach used by the regionalists and Mexican muralists before World War II and the advent of abstract expressionism. The continuation of this approach utilized human figuration and representation in a time when artists in the vanguard were more concerned with the redefining of modernism in the forms of abstraction, minimalism and conceptualism. The civil rights movements and subsequent focus on ethnic studies were great catalysts for forms of public engagement like murals, community arts centers, theater and the social-minded advocacy of public art that help create a distinct sense of place. The connection to Mexican and Latin American culture through immigration and other forms of cultural exchange helped create an arts atmosphere that resulted in the murals of Raul Valdez that highlighted the experiences of migrant farmworkers and folk heroes during the mid 1970s. I have great memories of driving south on the freeway and seeing his mural on the Lincoln Juarez Institute building.</p>
+        <p>The emphasis on cultural awareness and expanding definition of culture produced the establishment of the Mexic-Arte Museum by founders Sylvia Orozco, Pio Pulido and Sam Coronado in 1983. Sam was also the founder of the Serie Project in '93. These developments were well under way when I began exhibiting artwork in the mid '80s. The establishment of the Art in Public Places Program legitimized the inclusion of artwork in public spaces. This program commissioned my murals at Zaragoza Recreation Center in 1996 and Austin-Bergstrom International Airport in 1999. They present the contributions of neighborhood leaders and a reflection on the Mexican-American community. In this same direction, the public works of Connie Arismendi continue the tradition of honoring cultural and political leaders in the Tejano Trail and the tower honoring Cesar Chavez at Terrazas Branch Library.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>Perhaps a misunderstanding about muralism and public art is that they were meant to be permanent. I believe this is due to an American cultural aversion to seeing things that appear worn, faded or otherwise altered. Also, whenever public money is spent there is a desire to have accountability in the form of a period of maintenance and sustainability. Murals and other public art installations  with social messages can be limited to timely issues and therefore can be updated or simply painted over when another issue predominates. The Hispanic cultural and arts institutes in Austin have established a track record by displaying many aspects that have relevance to all ages, backgrounds and experiences because of the accessibility of the images and subject matter that has evolved over centuries.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>The future of Hispanic cultural influence in Austin appears well on its way. Aside from the visual arts, this influence now is evident in fashion, broadcasting, film, music and even the written word, with several Spanish-language publications. Since a great percentage of the Hispanics residing in Austin and Central Texas were foreign-born, their progeny will have a new experience to navigate and will produce another cultural expression in the years to come. With the growing national and international reputation of Austin growing, its geographic location will invite cultural influences from Mexico and Latin America well into the future.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

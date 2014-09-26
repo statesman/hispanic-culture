@@ -1,0 +1,42 @@
+<h3>Rose Reyes</h3>
+<h5>Chief operations officer at Giant Noise</h5>
+<div class="show-for-small-only">
+	<img src="images/rosereyes.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>The biggest impact of Hispanic culture in Austin? Can I pick three? Language, food and music/art are such a part of our the fabric of everyday life in Austin that it's hard to imagine the city without household names like Guadalupe Street, migas or Alejandro Escovedo. Hispanic culture is everywhere in the everyday language and passions of our citizens (both non-Spanish speakers and native speakers), evident not only in the traditional sense but also in the ways Hispanic culture has been embraced and incorporated, combined and adopted, making it very much a part of our identity. Breakfast tacos, margaritas and tamales are not just ethnic explorations, but for many Austinites, they are family-held traditions and everyday staples.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>The least understood impact in my view would have to be class and immigration issues as they relate to culture. Recent immigrants bring so much with them when they make a home in Austin. There is a very high entrepreneurial rate among recent immigrants, and many of the businesses have a cultural impact (restaurants and music to name a few). The food and arts traditions of Latinos will continue to shape our city as the population grows. Latinos immigrating here are not all taking from our city services but very often contributing greatly to our cultural life in the form of music, food, language and arts.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>The numbers are talking, and with the population growth will come more opportunities for the richness of language, dance, theater, music, art and food that Latino cultures offer. I believe we will see more performers breaking out in music, theater, dance and the arts; we will see more innovative takes on Latin cuisine. What will be the next Topo Chico? Who will be the next Ruben Ramos? Who will follow in Sam Coronado's footsteps? I can't wait to find out.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

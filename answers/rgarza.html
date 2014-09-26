@@ -1,0 +1,42 @@
+<h3>Rich Garza</h3>
+<h5>Director of Pachanga Fest</h5>
+<div class="show-for-small-only">
+	<img src="images/rgarza.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>I would say in Austin and Central Texas specifically you can really see an influence in the food and the fashion.  The whole notion of Tex-Mex and our love affair with tacos, queso, et al., which has come to define a piece of the culinary landscape here. On the fashion side, and bear with me here, the whole notion of Spanish vaqueros being the original cowboys. The big hats and boots that have become a staple of the American West evolved out of this tradition.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>I think the least understood part is how fragmented the culture is and that in some instances it competes with itself, especially with how things have changed in the last 15 years or so with the arrival of more immigrants from Latin American and Mexico of all classes. Blue-collar folks coming to find more opportunities and affluent folks coming here to avoid the violence and instability in Mexico. These communities, especially the former, exist in almost parallel universes in many cases with their own restaurants, stores, nightclubs, barbershops, churches, etc. This universe is often at odds with long-standing Tejano/Chicano communities that are much more acculturated and often made up of Latinos who trace their roots to Texas when it was Mexico.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>Moving forward, I think that Hispanic culture will become more and more part of the mainstream, and in a good way. I think we are blessed to have lots of interesting cultures to pull the best parts of, and as the Hispanic population pushes 40 percent (it's over 60 down the road in San Antonio), you'll see more and more elements being integrated into the cultural landscape. Great example: Look at the World Cup this year vs. years past. You had bars like Mohawk and Holy Mountain promoting watch parties, and the Mexico games were a big part of that. Or look at the Quesoff (the queso competition Adi Anand organizes) or the evolution of a DJ crew like Peligrosa, who although they play "Latin" are so great and hip all types pack their parties. This is where we're headed, and I think it'll be fun.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

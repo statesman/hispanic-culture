@@ -1,0 +1,43 @@
+<h3>Rupert Reyes</h3>
+<h5>Playwright, co-director Teatro Vivo</h5>
+<div class="show-for-small-only">
+	<img src="images/rupertreyes.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>This question actually begs two questions be asked first in order to get a clearer answer: What do you mean by Hispanic culture? Since we are really getting a large growth of the Mexican culture than any other Hispanic culture. The second question would be on whose Austin is the impact happening or affecting? The larger population of Austin won't be impacted very much, if any, by the Mexican culture. That is in regard to art, theater, music and dance. Food, yes, but that is not our topic.</p>
+		<p>It is the existing Mexican-American culture that is impacted greatly. The music scene is a great example. It is almost impossible to find Tejano music on the radio. The radio stations now are nationally owned and play to a Spanish-speaking audience. Most Mexican-Americans in Austin were listening to Tejano or the other radio stations in town. They have lost a bit of their culture with this change. Dance is probably the most positive art form that will strengthen from this arrival of new immigrants. They want their children to keep their culture strong, and dance is the most accessible and affordable. One rehearsal a week for months and then one performance to showcase that work, unlike theater or art, which take a much longer time and commitment to complete. Plus, unless they are already involved in theater or art in Mexico, they won't seek it out here. The other impact on Mexican-American Austinites is that they are caught in the middle. They are being squeezed by the new immigrants, since they don't relate directly to each other and the Anglo population that sees all brown people as Mexicans.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>That the new immigrants are trying to "take over." Look, everyone wants to be an American. You see it all over the world. People outside of the U.S. really do make a distinction between the people of the United States and the government of the United States. They want to go to the malls and do what kids all do. They want to spend money on clothes, music and toys. Austinites should welcome them, as they are spending their hard-earned dollars and not pesos. The fact that there is not one Spanish-language movie theater speaks volumes to how little people know about Hispanic spending habits. Also the news and other media has not discovered that there is a bilingual audience out there. The Statesman publishes an English paper and a Spanish paper. I would be interested in knowing how many Hispanics read either. The Mexican-Americans want to read in English, but the news that impacts them is not in the paper. Or their point of view is not covered. Culturally, Hispanic/ Mexicans/Mexican-Americans want to be American, only they love their language, their music, their traditions (baptisms, weddings, quinceañeras, funerals, etc.). They don't want Americans to start behaving like them. They want to behave like Americans and keep their traditions. And what is wrong with that?</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>I once heard someone from Hollywood say that once a blockbuster Latino/Hispanic movie is made, then all of Hollywood will start making Latino films. It is the same with culture. Already you see efforts by both the University of Texas with the ArtesAmérican program and the Department of Theater and Dance with their production of "In the Heights" and the Long Center with their annual concert by Mariachi Vargas that will prove to be fruitful in selling tickets. This year the Fusebox Festival under Ron Berry brought a theater group from Mexico that sold out their performances. Locally, efforts by our company and others are still in the baby steps phase. I mean that we haven't pulled off the type of shows that have generated great interest outside of Austin. I do believe that once producers find that there is a Hispanic audience willing to pay the ticket prices needed to bring world-class Hispanic talent to Austin that we will become one of the centers of Hispanic performance and art in Texas. Who else is doing it in Texas?</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

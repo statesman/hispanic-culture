@@ -1,0 +1,42 @@
+<h3>Gus Garcia</h3>
+<h5>Former Austin mayor and council member</h5>
+<div class="show-for-small-only">
+	<img src="images/ggarcia.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+    <p>By a wide margin it is food. When NAFTA went into effect, a reporter asked then-Mexican President Carlos Salinas de Gortari if he was concerned with the economic effect that American food would have on the Mexican restaurants. He said he was not concerned because he was predicting "that Americans would eat many more tacos and enchiladas than Mexicans would eat hamburgers and hot dogs." The reality is that the Mexican/Mexican-Ameridan cuisine is one of the most sophisticated in the world, going all of the way from the moles that the indigenous people gave us to the wonderful pan dulce that the French brought when Max and Charlie came to try to take control of La República Mexicana, the cabrito dishes that the Sephardic Jews brought to Northern México and the multitude of other wonderful dishes that are part of that cuisine, like paella provided by the Spaniards. You almost have to wonder why anybody would want to eat anything else.</p>
+    <p>Next to food, I would think that art, socializing (you know this to be true if you have ever been to a Mexican Fiesta or a quinceañera), and customs would follow. I do not know if I can evaluate the impact that faith and sports have had on Austin given that this community is heavily Protestant and Longhorn football rules our sports world.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+	<p>My guess is that language is the one least understood. Many reasons here. What we call Spanish in this area is a combination language. First and foremost the basic language that we call Spanish is actually Castellano, the language that is spoken in the Castilla region of Spain. Spain has three other languages (Catalán, Basque and Gallego), and if the Spaniard who came to the Americas had come from those regions, we would be speaking their languages. As an example, the Europeans who came to settle Brazil came from Portugal, so the Brazilians speak Portuguese. Portugal, by the way, is not much bigger than Spain's regions of Cataluña, the Basque region or the Galicia region (where they speak Gallego). There is one more region where they speak a different language: Valencia, where they speak Valenciano, which I understand is a dialect of Catalán. Add to that the words taken from Nahuatl, the language of the Aztecs, words like molcajete, tejolote, guajolote, aguacate, etc., and what you have is a very unique language. The language issue gets more complex because Spanish words are pronounced for the most part like they are written and the vowels are almost always pronounced the same way, with perhaps the only exception being when the "u" is silent like in "Qué." The English language, on the other hand, requires that you memorize the sounds of many words. The days of the week are a good example. If you pronounce them like they are written, they would sound as follows: "Sondey," "Mondey," "Tusdey," etc. Nevermind learning how to pronounce "Psychotherapy." The word in español is "sicoterapia."</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+    <p>If we use the last 50 years, 1964 to 2014, as a guide, Austin will look more like San Antonio and maybe even like Monterrey, Nuevo Leon, México, and the Hispanics in the area will look more like Julian and Joaquin Castro (without a Harvard education, of course). Assimilation will be a thing of the past once we improve the education of the Hispanic-American students, thereby reducing the alarming dropout rates and incorporating more of our Hispanic people into the mainstream of American life. My wife, Marina, and I raised three sons, who then added four more García boys and a beautiful granddaughter. I consider them all the prototypes of what people who have Hispanic last names will be like in the near future (some already are). They will know who they are and are proud of their heritage, but they will function very much with all other Americans. And I say this knowing full well that they are all different. One of the most interesting books that I have read is "The Nine Nations of North America" written by a demographer by the name of Joel Garreau. He identifies a nation that he calls MexAmerica, and that I think is where we will live in the future if we plan our future intelligently.</p>
+	</div>
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

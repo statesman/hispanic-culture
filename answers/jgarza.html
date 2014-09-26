@@ -1,0 +1,42 @@
+<h3>Jesus Garza</h3>
+<h5>President &amp; CEO, Seton Healthcare Family</h5>
+<div class="show-for-small-only">
+	<img src="images/jgarza.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>Austin is now a global city, and Central Texas is more diverse than ever. Hispanics come from many different countries. Their common culture includes their language and strong family ties across generations. Hispanics also share a religious heritage, and Seton Healthcare Family's 112-year-old Catholic roots, dating back to Austin's first Daughters of Charity, resonate here. The biggest impact has been their presence not just in this community today, but also historically. Tejanos were here before Texas was a state. Jose Antonio Navarro served as one of the founders of the state of Texas. On March 2, 1836, he was a signer of the Texas Declaration of Independence and served as elected senator in the Congress of the Republic of Texas. Navarro was the only native Tejano delegate to the Texas Statehood Convention of 1845, which voted for annexation to the United States.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>The least understood impact is that the Spanish language has been here since before the creation of the state of Texas. I graduated from the LBJ School of Public Affairs at UT-Austin and walked on Guadalupe Street, Brazos Street, Lavaca Street and many other streets with Spanish names. We all thrive due to water in the "Colorado" River. The Spanish language is all around us, and so is the impact of our varied Hispanic cultures, from food to the arts, from education to local businesses working with Spanish-speaking clients. I would be remiss if I did not mention that the Hispanic community knows English is the pathway to educational and professional success. I spoke Spanish at home and learned English. I am grateful to live in a community where being bicultural and speaking two languages is seen as a positive contribution to Central Texas' culture.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>The impact of the Hispanic culture on Austin's future is critical and already happening all around us. According to the U.S. Census, the Central Texas Hispanic community has grown 80 percent from 2000 to 2010. When 60 percent of Austin Independent School District students come from Hispanic families, ensuring every child graduates high school and either continues on to college or is career-ready is not just a Hispanic issue, it's a community issue. Our challenge is to see the impact of the Hispanic culture as key to the success of Austin's future. In health care – and at Seton Healthcare Family in particular last year – we communicated in over 40 languages with our patients and their families or other loved ones. We are training our doctors, nurses and other clinicians to provide culturally competent care. We know that when you provide excellent care and treat people with dignity and respect, we reduce readmissions, ensure patients obtain and take their medications and – most importantly – reduce health disparities and improve health outcomes.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

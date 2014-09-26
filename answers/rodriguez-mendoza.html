@@ -1,0 +1,42 @@
+<h3>Amalia Rodriguez-Mendoza</h3>
+<h5>District clerk of Travis County</h5>
+<div class="show-for-small-only">
+	<img src="images/rodriguez-mendoza.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>We have elected Latinos at every level of government representing Austin/Travis County, including state Legislature, county, city and school board; you can see the impact of this not only among elected officials but also in the appointment to boards and commissions and advisory committees. It's important for our community to reflect the diversity of this city. However, we have still not elected a Latina Austin City Council member. We have an opportunity to change that in November when the City of Austin elects 10 members to the council. Arts and culture: We have cultural arts institutions such as the Emma Barrientos Mexican American Cultural Center and the MexicArte Museum, which exhibits art by Latino artists. Music and Tex-Mex food, as well as interior Mexican cuisine, are other influences. We are proud of our cultural heritage.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>I believe there is still a lack of knowledge and understanding of the extent of our contributions and our culture. Even with our demographics, our community could do more to incorporate diversity at every level of society, especially the portrayal of Latinos in the media.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>Latinos will impact the educational system as we will comprise the majority of student enrollment. The health care delivery system will also have to be more adaptable to this evolving community in providing services, both medical and cultural, of the changing demographics. Other issues such as affordable housing and immigration will need to be addressed. I expect the community will become more bilingual and bicultural as both Latinos and non-Latinos will learn and borrow from each other's cultures and respect, appreciate and embrace our commonalities.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

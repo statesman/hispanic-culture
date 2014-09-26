@@ -1,0 +1,44 @@
+<h3>Perla Cavasos</h3>
+<h5>Legislative director for state Sen. Sylvia Garcia</h5>
+<div class="show-for-small-only">
+	<img src="images/cavasos.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>Culturally, I think the biggest impact of Latino culture in Austin is our food and music. Breakfast tacos are the norm. Anywhere. Taco trucks and trendy restaurants. You can get them at the corner convenience store. Whole Foods has a taco bar with a million types of salsa! There is a Mexican restaurant in every neighborhood. In some neighborhoods, they are on every block! And who would have seen the day when there would be soy chorizo. That has to be an Austin invention.</p>
+	<p>When I moved to Austin in 1997, I had no idea that Austin would have such a large Latino community. A vibrant Latino community! I remember getting involved with La Pastorela as a chorus actor. This was back when the Mexican American Cultural Center was still a dusty public works warehouse. The music was central to the play. In those early days of La Pastorela, I remember we had two bands, Conjunto Aztlan and Blimp. Traditional conjunto and contemporary Latin funk. The members of Blimp went on to form Grupo Fantasma. That was pretty awesome. I also remember going dancing at Tejano Ranch and seeing bands like La Mafia. Tejano music is still around, but nowadays, I see diverse Latin music influences throughout Austin and the huge crowds that turn out, both Latino and non-Latino. I can catch Peligrosa Allstar DJs any weekend mashing Latino music into just about any genre of music. There's the annual Pachanga Fest. SXSW Latino showcases. The Pan Americana fest at the MACC. ACL Live has brought some great Latin bands and performers. Los Pinkys at the White Horse on Sundays. Now that's always an interesting crowd of Tejanos and hipsters. I think I could catch a Latino performer or band on just about any day in Austin.</p>    
+        
+	</div>
+<div id="tab-2" class="tab-content">
+		<p></p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>I think the biggest cultural impact that Latinos will have in Austin's future may be a stronger sense of value of bilingualism and cultural competence. I'm observing this interesting trend among my non-Latino friends and also Latinos like me whose families have been here for generations who want their children to be bilingual in both English and Spanish. So they are seeking out bilingual child care centers like Escuelita de Alma, which by the way has a long wait list! I'm hearing about how parents want dual-language schools, too. I think it's great. And there seems to be this willingness by non-Latinos to expose their children to Latino culture. I see greater diversity at Latino music events, plays, cultural festivals like Dia de los Muertos. I want to share my culture with others. I, too, want to experience other cultures that I didn't grow up with. If I ever have children, I would like them to be more inclusive and culturally competent. I think this city will be better for sharing of our cultures. I think it will help us better understand the diverse populations here in Austin and be more inclusive and respectful of each other. </p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

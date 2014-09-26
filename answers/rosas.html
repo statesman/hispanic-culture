@@ -1,0 +1,42 @@
+<h3>Lilia Rosas</h3>
+<h5>Director of Red Salmon Arts</h5>
+<div class="show-for-small-only">
+	<img src="images/rosas.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>The biggest impact of Hispanic, or more precisely Latina/o, Chicana/o, culture on Austin is the diversity and longevity of our presence. It has shaped the very fabric of the city in many ways. The vibrancy and subtleties of this culture represent Austin in numerous organizations, groups and centers that have nurtured and sustained the arts, literature and other creative permutations from an unapologetic Latina/o, Chicana/o perspective. They are in the forefront of imagining an Austin that is neither Euroamerican-centric, male, nor elite. (Full disclosure: I am part of both Red Salmon Arts and Resistencia Bookstore.) The programming of La Peña (arts), Mexic-Arte (arts), Red Salmon Arts (cultural arts), Resistencia Bookstore (literature) CantoMundo (literature), allgo (multidisciplinary), Alma de Mujer (multidisciplinary), Teatro Vivo (theatre), Queer Cumbia (music), Cine de Las Americas (film), Son Armado (music), Aztlán Dance Company (dance) and Puerto Rican Folkloric Dance (dance), to name but a few, provide culture expressions that intersect genres, performance and aesthetics. These organizations are similarly important because they challenge the simplification of "Hispanic-ness" into a few select holidays and the homogenization of Austin's cultural life from a stereotypical perspective.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>The least understood impact of this culture is that the Latina/o, Chicana/o culture forms an integral part of Austin. It has shaped art, music and literature in the murals that beautify East Austin; the festivals that celebrate the indigenous sounds of the accordion, jarana or guitar; or the spoken word and poetry that reveals our complex of language experiences and histories. This culture is stitched into the city through the Tejana/o community that has lived here before the establishment of Austin and the nascent Latina/o community that continues to migrate here.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>The impact of Latina/o, Chicana/o culture on Austin's future is that it will continue to be significant to city's cultural production. The transborder approaches of these cultural expressions will underscore the linkages between arts and politics, land and creation, and autonomy and hope.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

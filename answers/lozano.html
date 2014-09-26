@@ -1,0 +1,49 @@
+<h3>Vicente Lozano</h3>
+<h5>Writer</h5>
+<div class="show-for-small-only">
+	<img src="images/lozano.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>I believe it's important to qualify something. By "Hispanic," you probably mean "Mexican." Eighty-two percent — the overwhelming majority — of Austin's Latino population is Mexican (<a href="http://www.usa.com/austin-tx-population-and-races.htm" target="_blank">http://www.usa.com/austin-tx-population-and-races.htm</a>). With a margin that big, and in a state on the border, that is important to acknowledge.</p>
+		<p>Mexican culture's biggest impact on Austin? The breakfast taco. I don't mean to be facetious. The historian David Montejano has written about the role of Mexican restaurants in mainstreaming the Texas Mexican population, beginning in the 1950s. El Patio, Lady Bird Johnson's favorite eateries from that era, still exists. And many political deals went down at Cisco's on East Sixth. Food is typically the first place a culture can make its friendly presence felt.</p>
+		<p>Austin is a lifestyle town. A place where, over the last 30 years, quality of life and consumable lifestyle have become inextricable. Mexican food has always set the stage for that laid-back party. Whether fajitas at the Hilton, margaritas at Trudy's or breakfast tacos, Latino food has always backgrounded the good times. But breakfast tacos have done one better by going hybrid. Austin's hippie roots have informed this humble breakfast food by adding everything from boutique bacon and whole-wheat tortillas to the mix.</p>
+		<p>Unfortunately, this veneer of margarita leisure takes place in a somewhat segregated town. Mexican culture decorates Austin, but often times without integrating the vast population it references. If you zero in on <a href="http://demographics.coopercenter.org/DotMap/index.html" target="_blank">Austin in the Weldon Center for Public Service's 2010 racial map</a>, the racial divide in Austin is still pretty stark. The bumper stickers are progressive but the neighborhoods less than diverse.</p>
+		<p>Strange, because Austin crossed over into being a <a href="http://www.austintexas.gov/page/top-ten-demographic-trends-austin-texas" target="_blank">majority minority city nearly 10 years ago</a>. Sometime around 2005 the Anglo population dipped below 50 percent. And yet, parallel worlds persist. Latino influence is there, but too often on the plate instead of in person.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>The least understood impact of Mexican culture here? Look at the skyline. Take in the high-rise condos downtown and in West Campus, the new houses that have sprung up at Mueller. Latino construction labor built a lot of that. The new Austin would be unimaginable without the hard and uncomplaining work of men who believe in earning an honest wage. James Carville said, "Outside of a person's love the most sacred thing they can give is their labor." In that respect, Latinos have given a lot to this town. Austin's new outline is sleek and mirrored. And technology takes a lot of credit for driving a new economy. But none of that would exist without men who pride themselves on being good at installing sheet wall, guiding girders into place on the 38th floor, and correct electrical wiring so that computers can be turned on.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>The impact of Latino culture on Austin's future? To be honest, I don't know. I've been here since 1983 and have gotten locked into my grumpy ways of looking at a demographic divide. Austin loves progressive bumper stickers — to save Tibet, half a world away — but when it comes to looking one mile east of I-35, there are surprising blind spots.</p>
+		<p>It may be that someone newer and fresher to town could better answer this question. That same person might be able to see a version of an integrating future that is already here but I'm too conditioned to miss. I would welcome that. Central Austin is only one version of the town, and a lot of interesting demographic things are going on in suburbs north and south.</p>
+		<p>I do wonder if Austin Mexicans will reinforce traditional family values in the face of mainstream divorce rates. A strong, extended sense of family is bound to have some influence in a town sometimes thought of as a playground for singles and nuclear families. Also, San Antonio and Austin seem to be growing together along the I-35 corridor, if my weekly visits to parents are a barometer. As the cities continue to merge, the satellite view makes them look like joined neurons. I can't tell what will happen, but the coming convergence is unmistakable.</p>
+		<p>It may be more accurate to ask, "What influence will Austin have — beyond being a leisurely festival town — when San Antonio becomes a major American city, with major manufacturing and biotech, pivoted between Mexico and the U.S.?"</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

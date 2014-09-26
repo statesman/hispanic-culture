@@ -1,0 +1,42 @@
+<h3>Victoria Ramirez</h3>
+<h5>Director of Bullock Texas State History Museum</h5>
+<div class="show-for-small-only">
+	<img src="images/ramirez.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>Having only lived in Austin for a year and a half, the most direct impact I've experienced are on Austin's music and food. Attending Texas Folklife's annual Big Squeeze accordion contest is a great example. Dozens of musicians and hundreds of visitors descended on the Bullock Museum to enjoy the fast-paced competition. The talents came from outside Central Texas, but Austinites were tapping their toes when the overwhelming number of Conjunto musicians performed.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>The month I moved to Austin, Texas Monthly published an article called "What Nobody Says About Austin." The author, then a new Austin resident and University of Texas professor, talks about her impressions of the city. I related to her experiences, but what really struck me was her description of the "geographic rift" formed by Interstate 35. While I'm still getting to know the city, it's clear that if you want a particular type of cultural experience, you need to seek it out. Culture reflects the neighborhood, and I think it's well-known that not all Austin communities are Hispanic.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>The current number of Hispanic students will have the biggest impact on Austin's culture. The interest in celebrating the culture of the student population (Austin ISD is 60 percent Hispanic), and multicultural education that emphasizes diverse content and perspectives will result in a more informed generation who are curious about the world. Forming these interests at a young age will guide adult habits, but it is also the responsibility of the community to shape itself. We're fortunate to live in Austin where cultural events are frequent. It's up to all of us to support such events with our participation and sponsorship, and, most importantly, share our enthusiasm with a friend.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

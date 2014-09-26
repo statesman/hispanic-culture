@@ -1,0 +1,42 @@
+<h3>Milton Torres</h3>
+<h5>Publisher of Popular Hispanics magazine</h5>
+<div class="show-for-small-only">
+	<img src="images/torres.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>Food – everyone loves Latin food and has a favorite Mexican or Latin restaurant. Also, food is not intimidating to people; over the years you had different strains of Mexican/Texas food that led to Tex-Mex, now made famous by places like Chuy's. In general, there is a love a affair with most ethnic foods, being that Austin has a huge Hispanic community, and Mexicans make up over 60 percent of Hispanics, you get the food influences that come with the relationship between the two.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>Language – we now see more advertising and messages in Spanish. I think people feel and see the growth of the Hispanic community all around them; some Hispanics see this as payback for being a minority for so long. I feel that we should educate people about our cultures and traditions in a non-intrusive way so people want to learn more about us and our language.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>It will all depend on the Hispanic community: If we do more to educate our kids and continue teaching them Spanish, their culture and traditions, then it'll be positive. Also our growth and presence can have a positive or negative effect. Growth will give us more poverty and put a strain on Austin's infrastructure; we can shrink the poverty level through education. With education comes better jobs, more opportunities, better living conditions and productive leaders of the community; people outside the Hispanic community will see this in a more positive light and will give us more respect.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

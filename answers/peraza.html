@@ -1,0 +1,42 @@
+<h3>Monica Peraza</h3>
+<h5>Entrepreneur and philanthropist</h5>
+<div class="show-for-small-only">
+	<img src="images/peraza.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>The rich diversity that we bring to Austin. Unfortunately, Hispanics are seen as a homogeneous group, and we are the exact opposite. Not only because of the different countries of origin but because our own roots have a wealth of different cultures that makes us have a different view of things.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>The economic impact that the Hispanic community is having in our city. Hispanics are very entrepreneurial. Instead of being a burden, whenever they find themselves unemployed they quickly find an opportunity and launch a business. We need to understand that Hispanic businesses are not isolated from other groups; they create jobs and pay local taxes that generate wealth in Austin.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>It is increasingly evident that Hispanics want to participate in the life of the city. There is still the challenge that we Hispanics open ourselves and integrate 100 percent with other groups, but I think things are changing rapidly. We need to know what is going on and how can we get involved. The most important thing is to open channels of effective communication with the Hispanic community and understand that most of the time the literal translation of information is not enough; communication that is carried out to the Hispanic community needs to  be "culturized" in order to engage us effectively.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

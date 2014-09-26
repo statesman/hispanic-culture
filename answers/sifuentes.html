@@ -1,0 +1,42 @@
+<h3>Ben Sifuentes</h3>
+<h5>Retired health care professional</h5>
+<div class="show-for-small-only">
+	<img src="images/sifuentes.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>Me, my dad, my grandfather who came to this country as immigrants and produced me, an American who has an incredible story. We and my children and grandchildren continue to have an impact on Austin, and this impact will continue and not stop.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>This fact is least understood not only in Austin but our country as a whole: Our stories and accomplishments must be told again and again, because folks do not understand that closing borders is not the answer. Our country is the greatest country in the world because we continue to bring people here because they want to work and have a work ethic. They work for their families because they have family values. They produce Americans who understand. Closing borders will only stop this flow of riches, just as closing our border with Mexico will stop the flow of $1 billion a day. This country has a drug problem. It is an American drug problem.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>If this country wants to continue to grow, we must have open borders that will process people who want work and want a better future for their families. Most importantly we have the open flow as it will impact Austin's future and of course our country's future.</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 

@@ -1,0 +1,43 @@
+<h3>Roen Salinas</h3>
+<h5>Director of Aztlan Dance Company</h5>
+<div class="show-for-small-only">
+	<img src="images/salinas.jpg" style="width:50%; float:right; margin-left: 10px;" />
+	<ol>
+		<li>What is the <b>biggest impact</b> of Hispanic culture on Austin?</li>
+		<li>What is the <b>least understood impact</b> of that culture here?</li>
+		<li>Most importantly, what will be in the <b>impact of Hispanic culture on Austin's future</b>?</li>
+	</ol>	
+</div>   
+<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"><span class="hide-for-small">Biggest impact of Hispanics</span><span class="show-for-small-only">1</span></li>
+	<li class="tab-link" data-tab="tab-2"><span class="hide-for-small">Least understood impact</span><span class="show-for-small-only">2</span></li>
+	<li class="tab-link" data-tab="tab-3"><span class="hide-for-small">Future impact</span><span class="show-for-small-only">3</span></li>
+</ul>		
+	<div id="tab-1" class="tab-content current">
+		<p>Austin thrives on "keeping it weird," which for me translates into keeping it real, creative and individually expressive. As such, Austin culture challenges larger social norms/values and cultural frameworks of conformity. Historically, Hispanic (and more specifically, Tejano) culture, since before Texas' annexation and the period that followed, has been one of cooperation, collaboration, evolution and shared mutual interests in order to develop a greater place to live. Fast forward to the present and I find that Hispanic culture significantly contributes to the vibrant diversity that the city enjoys and the progressive discourses of difference and multiplicity in all its manifestations. From rich music, food, dance, language, festivals, visual arts, etc., Hispanic culture expands the spectrum of experience that its residents partake, share and enjoy. As a culturally conservative community with enterprising dreams and aspirations, the Hispanic community reminds Austin of customs, traditions and lore that are trans-temporal and trans-local, reminding and contributing to a more appreciative self-reflection that we all come from somewhere, but all share time and space here in the now.</p>
+        <p>Personally, in my work with the Aztlan Dance Company, now celebrating our 40th year, cultural arts provides a generative and dialogic forum for community to see and experience self and to witness how its image is projected forward and outwards. In doing so, the arts encourages Hispanic and non-Hispanic arts patrons to undergo personal introspections of what is similar and what is different, and why it matters. I find that Austin audiences are courageously open to these critical mirror reflections and the ensuing expansion of registers of human difference. We collectively learn and come to value one and the other, which directly links back to my love for Austin in keeping it real, creative and expressive.</p>
+	</div>
+	<div id="tab-2" class="tab-content">
+		<p>What I find as the least understood impact about Hispanic culture here in Austin is that this community is young, non-homogenous and willing to take risk for personal and social improvement and development. As a substantial and young community that straddles across multiple cultures and identities, this community remains misunderstood, underrepresented and untapped for their economic, social, cultural and political contributions. It would be most advantageous for our city to take advantage of this un-resourced social and cultural capital.</p>
+	</div>
+	<div id="tab-3" class="tab-content">
+		<p>As the capital of Texas and a hub of state policy, Austin is in a unique position to affect proactive and positive change, especially in light of current cultural and political dynamics (immigration/trade/etc.). Austin has always been on the forefront of creative solutions for difficult issues. As the city continues growing into a large metroplex she teeters on losing her identity. At current the Hispanic community represents 38 percent of the city's demographics. Invariably, Hispanic culture will play a large role in Austin's future. I foresee that, like the Aztlan Dance Company, the city will evolve new third-spaces that cross cultural and social divides and that collapse fixed borders for a greater humanity. Through greater inclusion, integration and representation Austin is uniquely positioned to establish new models for a city's future that harness this community's contributions. At this juncture perhaps Austin might explore taking a card from the arts to show how new narratives and collaborations are realizable. Aztlan works to cultivate spaces that collapse the "us" and "them" – expanding collaborative meccas and exploding new grooviness that can only be imagined. This is the Austin I grew up in, that I love, and that I hope for!</p>
+	</div>
+
+
+<a href="#top" class="button">Back to top</a>
+<script>
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script> 
