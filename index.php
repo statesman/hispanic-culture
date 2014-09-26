@@ -25,7 +25,6 @@
 
 <!-- project-specific styles -->
 	<link rel="stylesheet" type="text/css" href="/foundation/slick/slick/slick.css"/>
-	<link rel="stylesheet" href="project.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Bevan' rel='stylesheet' type='text/css'>
 
 <?php include "../../common/metrics-head.js";?>
