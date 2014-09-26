@@ -17,14 +17,14 @@
 	<meta property="og:image" content="assets/appicon.png"/>
 	<meta property="og:url" content="http://projects.statesman.com/features/hispanic-culture/" />
 
-	<link rel="stylesheet" href="/foundation/css/normalize.css">
-	<link rel="stylesheet" href="/foundation/css/foundation.css">
+	<link rel="stylesheet" href="../../foundation/css/normalize.css">
+	<link rel="stylesheet" href="../../foundation/css/foundation.css">
 
 <!-- project additions -->
 	<?php include "advertising.js";?>
 
 <!-- project-specific styles -->
-	<link rel="stylesheet" type="text/css" href="/foundation/slick/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="../../foundation/slick/slick/slick.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Bevan' rel='stylesheet' type='text/css'>
 
 <?php include "../../common/metrics-head.js";?>
@@ -89,35 +89,35 @@
 <div class="row">
 	<div class="large-11 medium-11 small-11 large-centered medium-centered small-centered columns">
 		<div class="sliderContent" id="answer-items">
-			<div><a href="avila.html"><img src="images/avila.jpg" /><h5>Mike<br>Avila</h5><p class="hide-for-small">Webmaster for Texas State Library and Archives Commission</p></a></div>
+			<div><a href="avila.html"><img src="images/avila.jpg" /><h5>Mike<br>Ávila</h5><p class="hide-for-small">Webmaster for Texas State Library and Archives Commission</p></a></div>
             <div><a href="camacho.html"><img src="images/camacho.jpg" /><h5>Danny<br>Camacho</h5><p class="hide-for-small">Community historian</p></a></div>
             <div><a href="campos.html"><img src="images/campos.jpg" /><h5>Olga<br>Campos</h5><p class="hide-for-small">Charity leader, former TV anchor</p></a></div>
             <div><a href="castro.html"><img src="images/castro.jpg" /><h5>Zeke<br>Castro</h5><p class="hide-for-small">Musician/educator</p></a></div>
-            <div><a href="cavazos.html"><img src="images/cavazos.jpg" /><h5>Perla<br>Cavazos</h5><p class="hide-for-small">Legislative director<br>for State Sen. Sylvia Garcia</p></a></div>
-            <div><a href="chavez.html"><img src="images/chavez.jpg" /><h5>Gina<br>Chavez</h5><p class="hide-for-small">Musician</p></a></div>
+            <div><a href="cavazos.html"><img src="images/cavazos.jpg" /><h5>Perla<br>Cavazos</h5><p class="hide-for-small">Legislative director<br>for State Sen. Sylvia García</p></a></div>
+            <div><a href="chavez.html"><img src="images/chavez.jpg" /><h5>Gina<br>Chávez</h5><p class="hide-for-small">Musician</p></a></div>
             <div><a href="duran.html"><img src="images/duran.jpg" /><h5>Fidencio<br>Durán</h5><p class="hide-for-small">Artist</p></a></div>
             <div><a href="flores.html"><img src="images/flores.jpg" /><h5>'Lulu'<br>Flores</h5><p class="hide-for-small">Attorney</p></a></div>
-            <div><a href="garcia.html"><img src="images/garcia.jpg" /><h5>Arnold<br>Garcia</h5><p class="hide-for-small">Former American-Statesman editorial page editor</p></a></div>
-            <div><a href="ggarcia.html"><img src="images/ggarcia.jpg" /><h5>Gus<br>Garcia</h5><p class="hide-for-small">Former Austin mayor and city council member</p></a></div>
+            <div><a href="garcia.html"><img src="images/garcia.jpg" /><h5>Arnold<br>García</h5><p class="hide-for-small">Former American-Statesman editorial page editor</p></a></div>
+            <div><a href="ggarcia.html"><img src="images/ggarcia.jpg" /><h5>Gus<br>García</h5><p class="hide-for-small">Former Austin mayor and city council member</p></a></div>
             <div><a href="jgarza.html"><img src="images/jgarza.jpg" /><h5>Jesús<br>Garza</h5><p class="hide-for-small">President/CEO Seton Healthcare Family</p></a></div>
             <div><a href="rgarza.html"><img src="images/rgarza.jpg" /><h5>Rich<br>Garza</h5><p class="hide-for-small">Director of Pachanga Fest</p></a></div>
             <div><a href="gomez.html"><img src="images/gomez.jpg" /><h5>Margaret<br>Gómez</h5><p class="hide-for-small">Travis County commissioner, precinct 4</p></a></div>
             <div><a href="llimon.html"><img src="images/llimon.jpg" /><h5>Lonnie<br>Limón</h5><p class="hide-for-small">Marketing executive</p></a></div>
-            <div><a href="mlimon.html"><img src="images/mlimon.jpg" /><h5>Marisa<br>Limon</h5><p class="hide-for-small">Nonprofit and education consultant</p></a></div>
+            <div><a href="mlimon.html"><img src="images/mlimon.jpg" /><h5>Marisa<br>Limón</h5><p class="hide-for-small">Nonprofit and education consultant</p></a></div>
             <div><a href="lozano.html"><img src="images/lozano.jpg" /><h5>Vicente<br>Lozano</h5><p class="hide-for-small">Writer</p></a></div>
             <div><a href="moya.html"><img src="images/moya.jpg" /><h5>Richard<br>Moya</h5><p class="hide-for-small">Former Travis County Commissioner</p></a></div>
             <div><a href="orozco.html"><img src="images/orozco.jpg" /><h5>Sylvia<br>Orozco</h5><p class="hide-for-small">Director of Mexic-Arte Museum</p></a></div>
-            <div><a href="peraza.html"><img src="images/peraza.jpg" /><h5>Monica<br>Peraza</h5><p class="hide-for-small">Entrepreneur and philanthropist</p></a></div>
-            <div><a href="ramirez.html"><img src="images/ramirez.jpg" /><h5>Victoria<br>Ramirez</h5><p class="hide-for-small">Director of Bullock Texas State History Museum</p></a></div>
-            <div><a href="rivas-rodriguez.html"><img src="images/rivas-rodriguez.jpg" /><h5>Maggie<br>Rivas-Rodriguez</h5><p class="hide-for-small">U.S. Latino &amp; Latina Oral History Project director</p></a></div>
-            <div><a href="rodriguez.html"><img src="images/rodriguez.jpg" /><h5>Leticia<br>Rodriguez</h5><p class="hide-for-small">Musician</p></a></div>
-            <div><a href="rodriguez-mendoza.html"><img src="images/rodriguez-mendoza.jpg" /><h5>Amalia<br>Rodriguez-Mendoza</h5><p class="hide-for-small">District clerk of Travis County</p></a></div>
+            <div><a href="peraza.html"><img src="images/peraza.jpg" /><h5>Mónica<br>Peraza</h5><p class="hide-for-small">Entrepreneur and philanthropist</p></a></div>
+            <div><a href="ramirez.html"><img src="images/ramirez.jpg" /><h5>Victoria<br>Ramírez</h5><p class="hide-for-small">Director of Bullock Texas State History Museum</p></a></div>
+            <div><a href="rivas-rodriguez.html"><img src="images/rivas-rodriguez.jpg" /><h5>Maggie<br>Rivas-Rodríguez</h5><p class="hide-for-small">U.S. Latino &amp; Latina Oral History Project director</p></a></div>
+            <div><a href="rodriguez.html"><img src="images/rodriguez.jpg" /><h5>Leticia<br>Rodríguez</h5><p class="hide-for-small">Musician</p></a></div>
+            <div><a href="rodriguez-mendoza.html"><img src="images/rodriguez-mendoza.jpg" /><h5>Amalia<br>Rodríguez-Mendoza</h5><p class="hide-for-small">District clerk of Travis County</p></a></div>
             <div><a href="rosereyes.html"><img src="images/rosereyes.jpg" /><h5>Rose<br>Reyes</h5><p class="hide-for-small">Chief Operations Officer at Giant Noise</p></a></div>
 			<div><a href="rupertreyes.html"><img src="images/rupertreyes.jpg" /><h5>Rupert<br>Reyes</h5><p class="hide-for-small">Playwright, co-director Teatro Vivo</p></a></div>
             <div><a href="rosas.html"><img src="images/rosas.jpg" /><h5>Lilia<br>Rosas</h5><p class="hide-for-small">Director of Red Salmon Arts</p></a></div>
-            <div><a href="saenz.html"><img src="images/saenz.jpg" /><h5>Erica<br>Saenz</h5><p class="hide-for-small">UT community engagement<br>specialist</p></a></div>
-            <div><a href="salinas.html"><img src="images/salinas.jpg" /><h5>Roen<br>Salinas</h5><p class="hide-for-small">Director of Aztlan Dance Company</p></a></div>
-            <div><a href="sepulveda.html"><img src="images/sepulveda.jpg" /><h5>Eugene<br>Sepulveda</h5><p class="hide-for-small">Social entrepreneur and philanthropist</p></a></div>
+            <div><a href="saenz.html"><img src="images/saenz.jpg" /><h5>Erica<br>Sáenz</h5><p class="hide-for-small">UT community engagement<br>specialist</p></a></div>
+            <div><a href="salinas.html"><img src="images/salinas.jpg" /><h5>Roén<br>Salinas</h5><p class="hide-for-small">Director of Aztlan Dance Company</p></a></div>
+            <div><a href="sepulveda.html"><img src="images/sepulveda.jpg" /><h5>Eugene<br>Sepúlveda</h5><p class="hide-for-small">Social entrepreneur and philanthropist</p></a></div>
             <div><a href="sifuentes.html"><img src="images/sifuentes.jpg" /><h5>Ben<br>Sifuentes</h5><p class="hide-for-small">Retired health care professional</p></a></div>
             <div><a href="torres.html"><img src="images/torres.jpg" /><h5>Milton<br>Torres</h5><p class="hide-for-small">Publisher of Popular Hispanics magazine</p></a></div>
             <div><a href="tzintzun.html"><img src="images/tzintzun.jpg" /><h5>Cristina<br>Tzintzún</h5><p class="hide-for-small">Workers Defense Project director</p></a></div>
@@ -167,8 +167,8 @@
 	<a class="close-reveal-modal">&#215;</a>
 </div>
 
-<script src="/foundation/js/vendor/jquery.js"></script>
-<script src="/foundation/js/foundation.min.js"></script>
+<script src="../../foundation/js/vendor/jquery.js"></script>
+<script src="../../foundation/js/foundation.min.js"></script>
   
    <script>
     $(document).foundation();
@@ -178,7 +178,7 @@
  $("#introModal").foundation('reveal', 'open');
  </script>
  
-<script type="text/javascript" src="/foundation/slick/slick/slick.min.js"></script>
+<script type="text/javascript" src="../../foundation/slick/slick/slick.min.js"></script>
 
 <script type="text/javascript">
 	$(document).ready(function(){
