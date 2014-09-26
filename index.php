@@ -5,15 +5,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- working cache -->
 	<meta http-equiv="Cache-Control" content="max-age=3600, must-revalidate" />
-	<meta http-equiv="Pragma" content="no-cache" />
-	<meta http-equiv="Expires" content="0" />
 
-	<meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="Hispanic Culture in Austin">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<link rel="apple-touch-icon" href="assets/appicon.png">
 	<link rel="icon" type="image/png" href="assets/favicon.png">
 
 	<title>Hispanic Culture in Austin</title>
@@ -24,14 +17,14 @@
 	<meta property="og:image" content="assets/appicon.png"/>
 	<meta property="og:url" content="http://projects.statesman.com/features/hispanic-culture/" />
 
-	<link rel="stylesheet" href="http://projects.statesman.com/foundation/css/normalize.css">
-	<link rel="stylesheet" href="http://projects.statesman.com/foundation/css/foundation.css">
+	<link rel="stylesheet" href="/foundation/css/normalize.css">
+	<link rel="stylesheet" href="/foundation/css/foundation.css">
 
 <!-- project additions -->
 	<?php include "advertising.js";?>
 
 <!-- project-specific styles -->
-	<link rel="stylesheet" type="text/css" href="http://projects.statesman.com/foundation/slick/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="/foundation/slick/slick/slick.css"/>
 	<link rel="stylesheet" href="project.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Bevan' rel='stylesheet' type='text/css'>
 
@@ -175,8 +168,8 @@
 	<a class="close-reveal-modal">&#215;</a>
 </div>
 
-<script src="http://projects.statesman.com/foundation/js/vendor/jquery.js"></script>
-<script src="http://projects.statesman.com/foundation/js/foundation.min.js"></script>
+<script src="/foundation/js/vendor/jquery.js"></script>
+<script src="/foundation/js/foundation.min.js"></script>
   
    <script>
     $(document).foundation();
@@ -186,7 +179,7 @@
  $("#introModal").foundation('reveal', 'open');
  </script>
  
-<script type="text/javascript" src="http://projects.statesman.com/foundation/slick/slick/slick.min.js"></script>
+<script type="text/javascript" src="/foundation/slick/slick/slick.min.js"></script>
 
 <script type="text/javascript">
 	$(document).ready(function(){
